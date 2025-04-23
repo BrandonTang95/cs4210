@@ -12,7 +12,7 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers, models  # type: ignore
+from keras import layers, models  # type: ignore
 
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"  # Add at the top of your code
 
